@@ -30,6 +30,7 @@ if ('development' == app.get('env')) {
 
 app.get('/', routes.index);
 app.get('/aboutUs', routes.aboutUs);
+app.get('/privacy', routes.privacy);
 
 app.get('/users', user.list);
 
